@@ -3,10 +3,10 @@ public class NodeBFS {
     private int x;
     private int y;
     private int steps;
-    private String letter;
+    private char letter;
     private NodeBFS parent;
 
-    NodeBFS(int x, int y, int steps, String letter, NodeBFS parent) {
+    NodeBFS(int x, int y, int steps, char letter, NodeBFS parent) {
         this.x = x;
         this.y = y;
         this.steps = steps;
@@ -26,7 +26,7 @@ public class NodeBFS {
         return this.steps;
     }
 
-    public String getLetter() {
+    public char getLetter() {
         return this.letter;
     }
 
